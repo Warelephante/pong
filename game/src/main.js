@@ -5,7 +5,7 @@ import Phaser from "phaser";
 
 import { io } from "socket.io-client";
 
-const socket = io("https://pong-gssa.onrender.com");
+const socket = io("https://pong2-5p1k.onrender.com")
 
 socket.on("connect", () => {
   socket.emit("test", "hello from client");
